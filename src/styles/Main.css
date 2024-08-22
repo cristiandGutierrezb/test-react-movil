@@ -2,16 +2,13 @@
 .main {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
 }
 
-.main .main__aside {
+.main .main__categories {
   width: 30%;
-  background: #77B777;
-  min-height: 80dvh;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .main .main__products {
