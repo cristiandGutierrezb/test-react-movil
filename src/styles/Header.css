@@ -5,4 +5,46 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 15px 0;
+}
+
+.header nav {
+  background: #402D6C;
+  width: 98%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__section {
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+
+.header__section ul {
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+
+.header__section ul li {
+  list-style: none;
+  margin-left: 20px;
+  color: #fff;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.header__section ul li:hover {
+  font-weight: bold; 
+}
+
+.header__img {
+  border-radius: 5px;
+  margin-right: 10px;
+  background: #fff;
 }
