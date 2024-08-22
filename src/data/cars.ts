@@ -1,6 +1,6 @@
-import { Car } from '../types/index'
+import { Data } from '../types/index'
 
-export const cars: Car[] = [
+export const cars: Data[] = [
   {
     id: 1,
     category_id: 1,

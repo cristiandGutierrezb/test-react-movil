@@ -1,6 +1,6 @@
-import { Category } from "../types"
+import { Data } from "../types"
 
-export const categories: Category[] = [
+export const categories: Data[] = [
   {
     id: 1,
     name: "Sedan",

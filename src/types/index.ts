@@ -1,11 +1,6 @@
-export type Category = {
+export type Data = {
   id: number,
   name: string,
-  description: string
-}
-
-export type Car = {
-  id: number,
-  category_id: number,
-  name: string
+  description?: string,
+  category_id?: number
 }
