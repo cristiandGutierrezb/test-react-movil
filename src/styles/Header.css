@@ -1,9 +1,7 @@
 .header {
-  margin: 0 auto;
-  background: #77B777;
-  border-radius: 10px;
+  width: 100%;
+  background: #402D6C;
   min-height: 50px;
-  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
